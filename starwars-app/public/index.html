@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Star Wars</title>
+    <style>
+        .section {
+            margin-bottom: 20px;
+        }
+        #results div {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Star Wars</h1>
+    
+    <div class="section">
+        <button id="fetchAll">Todos los personajes</button>
+    </div>
+
+    <div class="section">
+        <h2>Buscar por ID</h2>
+        <input type="text" id="characterId" placeholder="Enter ObjectId">
+        <button id="fetchById">Buscar</button>
+    </div>
+
+    <div class="section">
+        <h2>Buscar por Nombre</h2>
+        <input type="text" id="characterName" placeholder="Enter name">
+        <button id="fetchByName">Buscar</button>
+    </div>
+
+    <div class="section">
+        <h2>Results</h2>
+        <div id="results"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
